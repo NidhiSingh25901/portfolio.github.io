@@ -198,7 +198,7 @@ html{
 .section4{
     width: 100%;
     height: 100vh;
-    background: url('asset/work.jpeg');
+    background: url('work.jpeg');
     background-size: 100% 100%;
     background-attachment: fixed;
     background-blend-mode: darken;
@@ -244,7 +244,7 @@ html{
 }
 
 .w1{
-    background: url('asset/artsy.JPG');
+    background: url('artsy.JPG');
     background-size: 100% 100%;
     background-blend-mode: darken;
     background-color: rgba(0,0,0,0.7);
@@ -252,7 +252,7 @@ html{
 
 
 .w2{
-    background: url('asset/portfolio.JPG');
+    background: url('portfolio.JPG');
     background-size: 100% 100%;
     background-blend-mode: darken;
     background-color: rgba(0,0,0,0.7);
@@ -260,7 +260,7 @@ html{
 
 
 .w3{
-    background: url('asset/calculator.JPG');
+    background: url('calculator.JPG');
     background-size: 100% 100%;
     background-blend-mode: darken;
     background-color: rgba(0,0,0,0.7);
@@ -268,14 +268,14 @@ html{
 
 
 .w4{
-    background: url('asset/password_generator.JPG');
+    background: url('password_generator.JPG');
     background-size: 100% 100%;
     background-blend-mode: darken;
     background-color: rgba(0,0,0,0.7);
 }
 
 .w5{
-    background: url('asset/crackthecode.JPG');
+    background: url('crackthecode.JPG');
     background-size: 100% 100%;
     background-blend-mode: darken;
     background-color: rgba(0,0,0,0.7);
@@ -288,7 +288,7 @@ html{
 .section5{
     width: 100%;
     height: 100vh;
-    background: url('asset/contact.jpg');
+    background: url('contact.jpg');
     background-size: 100% 100%;
     background-attachment: fixed;
     background-blend-mode: darken;
