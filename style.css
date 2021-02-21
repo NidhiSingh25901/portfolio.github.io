@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head{
+    position: sticky;
+    top: 0;
+} 
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row; 
+    max-width: 100%;   
+    background-color: black;
+    color: salmon; 
+    height: 9vh; 
+    z-index: 1;
+}  
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 4%; 
+    font-family: 'Alex Brush'; 
+    font-size: 45px; 
+    text-shadow: 10px 10px 10px 10px rgb(167, 160, 160), 15px 15px 15px 15px white;
+} 
+.menu{
+    position: absolute;
+    right: 4%;  
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Noto Serif', serif;
+    color: salmon;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    color:  salmon;
+} 
+.menu ul li{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none; 
+    padding: 9px 9px;  
+}
+.navbar > a{
+    color: salmon; 
+    display: none; 
+    position: absolute; 
+    right: 5%;
+    top: 42%; 
+}  
+
+.icon{
+    position: absolute;
+    top: 10%;
+    color: salmon;
+}
+
+.menu ul li a:hover{ 
+    background-color: rgb(66, 64, 64);
+    border-bottom: 1px solid salmon;
+} 
+#link li > a{
+    color: salmon;
+    text-decoration: none;
+}
+
+
+.section1{
+    height: 100vh;
+    width: 100%;
+    background-color: salmon; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.section2{
+    width: 100%;
+    height: 100vh;
+    background: url('asset/pen.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.7);
+}
+.educationheading{
+    width:  100%;
+    height: 29vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    color: salmon;
+}
+.educationheading h1{
+    border-bottom: 1px solid salmon;
+}
+.educationdetails{
+    width: 90%;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 60vh; 
+}
+.box1{
+    padding: 2%; 
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+    text-align: right;
+    color: rgb(209, 201, 201);
+}
+.box1 h4{
+    color: salmon;
+    border-bottom: 1px solid salmon;
+    margin-bottom: 4%;
+}
+.box1:hover{
+    border: 1px outset wheat;
+    background-color: rgb(56, 54, 54);
+}
+
+.section3{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right,black 0%,grey 100%);
+    z-index: -1;
+    color: rgb(199, 194, 194);
+}
+.skillshead{
+    width:  100%;
+    height: 29vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    color: salmon;
+}
+.skillshead h1{
+    color: salmon;
+    border-bottom: 1px solid salmon;
+}
+
+.skills{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    flex-direction: column;
+} 
+.wrapper{
+    width: 70%;
+    height: 15vh;
+    display: flex;
+   
+}
+.container{
+    width: 33.33%;
+    border: 1px solid salmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 5%;
+    margin: 2% 2%;
+}
+.container:hover{
+    background-color: black;
+    color: salmon;
+}
+
+.section4{
+    width: 100%;
+    height: 100vh;
+    background: url('asset/work.jpeg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.workhead{
+    width:  100%;
+    height: 29vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    color: salmon;
+}
+.workhead h1{
+    color: salmon;
+    border-bottom: 1px solid salmon;
+}
+.workdesc{
+    margin: auto;
+    width: 60%;
+    height: 64vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.work{
+    width: 17vw;
+    height: 20vh;
+    border: 1px solid salmon;
+    margin: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.work a{
+    color: salmon;
+    text-decoration: none;
+}
+
+.w1{
+    background: url('asset/artsy.JPG');
+    background-size: 100% 100%;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.7);
+}
+
+
+.w2{
+    background: url('asset/portfolio.JPG');
+    background-size: 100% 100%;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.7);
+}
+
+
+.w3{
+    background: url('asset/calculator.JPG');
+    background-size: 100% 100%;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.7);
+}
+
+
+.w4{
+    background: url('asset/password_generator.JPG');
+    background-size: 100% 100%;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.w5{
+    background: url('asset/crackthecode.JPG');
+    background-size: 100% 100%;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.7);
+}
+.work:hover{
+    background-color: black;
+}
+
+
+.section5{
+    width: 100%;
+    height: 100vh;
+    background: url('asset/contact.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.7);
+}
+
+
+.contacthead{
+    width:  100%;
+    height: 29vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    color: salmon;
+}
+.contacthead h1{
+    color: salmon;
+    border-bottom: 1px solid salmon;
+}
+.contact{
+    width: 50%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: salmon;
+    line-height: 3rem;
+}
+i{
+    color: salmon;
+    font-size: xx-large;
+}
+.bottom{
+   height: 4vh;
+   color: salmon;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+@media only screen and (max-width: 790px) 
+{  
+
+      .menu{
+          position: absolute; 
+          right: 3%;  
+          width: 25%;  
+          height: 5vh;
+          color: salmon; 
+      }  
+
+      .menu ul{
+          display: flex;
+          flex-direction: column; 
+          width: 75%; 
+          height: 5vh; 
+          display: none; 
+      } 
+      .menu ul li{ 
+          color: salmon;
+      }  
+      .menu ul li a{
+          background-color: black;
+      }
+      .navbar .icon{
+          display: block;
+          color: salmon;
+      }  
+      .menu ul li a:hover{
+        background-color: black;
+        border-bottom: 1px solid salmon;
+    }
+
+    }
+
+    @media only screen and (max-width: 500px) {
+        .logo p{
+            font-size: 1rem;
+        }  
+        .navbar .icon{
+            font-size: 2vh;
+        } 
+    }
+
+    @media only screen and (max-width: 349px) {
+        .desc h1{
+            font-size: x-small;
+        }
+        .desc p{
+            font-size: x-small;
+        }
+    }
+    @media only screen and (max-height: 95px) {
+        .desc h1{
+            font-size: 3%;
+        }
+        .desc p{
+            font-size: 3%;
+        }
+    }
+    @media only screen and (min-height: 1366px) {
+        .desc{
+            margin-bottom:  50%;
+        }
+        .educationdetails{
+            margin-bottom: 40%;
+        }
+        .educationdetails{
+            height: 50%;
+            margin-top: -153px;
+         }
+    }
+    @media only screen and (max-width: 260px) {
+           .box1{
+               font-size: x-small;
+           }
+         
+    }
+    @media only screen and (max-width: 170px) {
+        .educationheading{
+            font-size: xx-small;
+        }
+        .box1{
+            font-size: xx-small;
+        }
+    } 
+    @media only screen and (max-height: 451px) {
+        .educationdetails{
+            font-size: 1%;
+        }
+    }
+    @media only screen and (max-width: 365px){
+        .box1{
+            margin-bottom: 4%;
+        }
+    }
+
+    @media only screen and (max-width: 262px){
+        .box1{
+            margin-bottom: 5%;
+        }
+    }
+    @media only screen and (max-width: 160px){
+        .box1{
+            font-size: 1%;
+        }
+    }
+    @media only screen and (max-width: 81px){
+        .educationheading{
+            font-size: 1%;
+        }
+
+    }
+    @media only screen and (max-width: 531px){
+        .wrapper{
+            width: 90%;
+        }
+    }
+
+    @media only screen and (max-width: 394px){
+        .wrapper{
+            width: 95%;
+        } 
+        .skillshead{
+            font-size: xx-small;
+        }
+        .workhead{
+            font-size: xx-small;
+        }
+        .contacthead{
+            font-size: xx-small;
+        }
+    }
+
+    @media only screen and (max-width: 300px){
+        .container{
+            font-size: xx-small;
+        }
+    }
+    @media only screen and (max-width: 422px){
+        .work{
+            width: 25vw;
+            height: 15vh;
+        }
+    }
+
+    @media only screen and (max-width: 300px){
+         .work a{
+             font-size: xx-small;
+         } 
+    }
+    @media only screen and (max-width: 135px){
+        .work a{
+            font-size: 2%;
+        }
+        .workhead{
+            font-size: 2%;
+        }
+
+    }
